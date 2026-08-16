@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marley & Milo - Coming Soon</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.3em;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .story {
+            background: #f9f9f9;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 30px 0;
+            line-height: 1.8;
+        }
+
+        .story h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+
+        .story p {
+            margin-bottom: 15px;
+            font-size: 1.05em;
+        }
+
+        .video-section {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .video-section h3 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+
+        .video-placeholder {
+            background: #e0e0e0;
+            padding: 40px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .video-text {
+            color: #666;
+            font-style: italic;
+        }
+
+        .signup-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 50px 0;
+        }
+
+        .signup-section h2 {
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+
+        .signup-section p {
+            margin-bottom: 20px;
+            font-size: 1.1em;
+        }
+
+        .email-form {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .email-form input {
+            flex: 1;
+            min-width: 200px;
+            padding: 12px 15px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        .email-form button {
+            padding: 12px 30px;
+            background: white;
+            color: #667eea;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 1em;
+            transition: transform 0.2s;
+        }
+
+        .email-form button:hover {
+            transform: scale(1.05);
+        }
+
+        .coming-soon {
+            text-align: center;
+            color: white;
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            border-top: 1px solid #eee;
+            margin-top: 50px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            .email-form {
+                flex-direction: column;
+            }
+
+            .email-form input,
+            .email-form button {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Marley & Milo</h1>
+        <p>Is your dog a fussy eater?</p>
+    </header>
+
+    <div class="container">
+        <div class="story">
+            <h2>Our Story</h2>
+            <p>I'm a support worker from Bath. A few years back, I got a dog — Milo. He was great, but he had one problem: he was incredibly fussy about eating.</p>
+            
+            <p>We were going through endless bags of food, changing his diet every few months, wasting money because he'd refuse to eat what we gave him. Sarah and I were frustrated — we knew he was hungry, but he just wouldn't touch his food.</p>
+            
+            <p>So I decided to build something. A simple system that enhances the smell of his food, making it irresistible. I tested it on Milo, and it worked. Now he eats everything we put in front of him — even when he normally refuses.</p>
+            
+            <p>Marley & Milo is that solution. It's designed for dogs like Milo — fussy eaters who just need a little sensory help to get excited about food again.</p>
+        </div>
+
+        <div class="video-section">
+            <h3>See It In Action</h3>
+            <div class="video-placeholder">
+                <p class="video-text">Video coming soon — watch Milo eat when he normally refuses</p>
+            </div>
+        </div>
+
+        <div class="signup-section">
+            <h2>Be First To Know</h2>
+            <p>Join our early access list. We're launching Winter 2027, and you'll be the first to get special early-bird pricing.</p>
+            
+            <form class="email-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <input type="email" name="email" placeholder="Your email address" required>
+                <button type="submit">Notify Me</button>
+            </form>
+            
+            <div class="coming-soon">Coming Winter 2027</div>
+        </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Marley & Milo. All rights reserved.</p>
+        <p>Built with a passion for fussy dogs.</p>
+    </footer>
+</body>
+</html>
